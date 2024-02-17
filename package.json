@@ -1,24 +1,26 @@
 {
-  "name": "2708-node-lib-md",
+  "name": "Thomaz-primeira-biblioteca",
   "version": "1.0.0",
-  "description": "",
+  "description": "é minha primeira biblioteca feita junto ao curso da Alura.",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["URLs","Validations", "MarkDown"],
+  "author": "Th0mzzz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
   },
-  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
+  "homepage": "",
   "dependencies": {
-    "chalk": "5.0.1"
+    "chalk": "5.0.1",
+    "yargs": "^17.7.2"
   }
 }
